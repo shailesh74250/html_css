@@ -1,0 +1,15 @@
+.i {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid gray;
+    font-size: 18px;
+    border-radius: 20px;
+    height: 40px;
+} 
+
+.i:focus {
+    outline: none;
+    border: 1px solid blueviolet;
+}

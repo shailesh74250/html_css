@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <hader>
+    <title>Dashboard</title>
+    <link href="dashboard.css" rel="stylesheet" />
+  </hader>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="company-logo">
+          <h1>Company Logo</h1>
+        </div>
+        <div class="toggle-button">
+          <button onclick="toggleSidebar(!true);">Toggle</button>
+        </div>
+        <nav class="nav-bar">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <a href="#">Schedule Demo</a>
+            </li>
+            <li>
+              <a href="#">Logout</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="section">
+        <div id="sidebar" class="sidebar">
+          <ul class="sidebar-list">
+            <li><a href="#">User</a></li>
+            <li><a href="#">Posts</a></li>
+            <li><a href="#">Comments</a></li>
+            <li><a href="#">Likes</a></li>
+          </ul>
+        </div>
+        <div id="main" class="main">
+          <h1 class="dashboard-title">FamilySoft Dashboard</h1>
+          <div class="tasks">
+            <div class="task-card">User</div>
+            <div class="task-card">Posts</div>
+            <div class="task-card">Comments</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+    <script src="dashboard.js"></script>
+  </body>
+</html>

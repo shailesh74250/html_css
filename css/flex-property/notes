@@ -1,0 +1,23 @@
+flex container properties
+    flex-direction (row, column)
+    flex-wrap (wrap, nowrap)
+    flex-flow (row wrap)
+    justify-content (horizontally center) (according to container width)
+    align-items (vertically center) but child element will be in center according to container height
+    align-content (used to align the flex lines) bring line in center so all line content will come in center
+    
+child properties
+order
+flex-grow
+flex-shrink
+flex-basis
+flex
+align-self
+
+
+Task is 
+create web app structure
+create image gallery structure
+
+height and width not working with in-line element,
+work with block level element or inline-block level element 

@@ -1,0 +1,85 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.auth-card {
+    max-width: 450px;
+    border: 1px solid rgb(230, 192, 192);
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px gainsboro;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 150px;
+    background-color: gold;
+    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+form {
+    width: 100%;
+}
+
+.i {
+    width: inherit;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid gray;
+    font-size: 16px;
+    font-family: "Lucida Console", Courier, monospace;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    height: 40px;
+} 
+
+.i:focus {
+    outline: none;
+    border: 1px solid blueviolet;
+}
+
+.login-submit {
+    width: inherit;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    height: 40px;
+    outline: none;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.b-primary {
+    background: #0000FF;
+    font-size: 16px;
+    color: #ffffff;
+    border: 1px solid #0000FF;
+    cursor: pointer;
+    padding: 6px 12px 6px 12px;
+    opacity: 0.8;
+    /* box-shadow: 2px 2px 2px 0  blue; */
+}
+
+.b-primary:hover {
+    opacity: 1;
+}

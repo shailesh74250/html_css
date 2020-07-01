@@ -1,0 +1,40 @@
+
+
+.b-primary {
+    background: #0000FF;
+    font-size: 16px;
+    color: #ffffff;
+    border: 1px solid #0000FF;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 6px 12px 6px 12px;
+    opacity: 0.8;
+    /* box-shadow: 2px 2px 2px 0  blue; */
+}
+
+.b-primary:hover {
+    opacity: 1;
+    border-radius: 2px ;
+}
+
+.b-small {
+    background: #0000FF;
+    font-size: 14px;
+    color: #ffffff;
+    border: 1px solid #0000FF;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    opacity: 0.8;
+}
+
+.b-large {
+    background: #0000FF;
+    font-size: 18px;
+    color: #ffffff;
+    border: 1px solid #0000FF;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 7px 13px 7px 13px;
+    opacity: 0.8;
+}

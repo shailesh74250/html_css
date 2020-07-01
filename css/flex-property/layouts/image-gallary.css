@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    height: 70%;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    margin: 10px;
+}

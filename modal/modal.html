@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./modalStyle.css" rel="stylesheet">
+  </head>
+  <body>
+    <button onclick="openModal();">Open Modal</button>
+    <h1>asfdafj;lkjwj;f;klajkslakl</h1>
+    <div id="modal" class="modal" onclick="off();">
+      <div id="text" class="text">
+        <h1>This is Text</h1>
+      </div>
+    </div>
+    <script>
+      function openModal() {
+        let modal = document.getElementById("modal");
+        modal.style.display = "block";
+      }
+
+      function off() {
+        let modal = document.getElementById("modal");
+        modal.style.display = "none";
+      }
+    </script>
+  </body>
+</html>

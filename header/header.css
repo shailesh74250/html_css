@@ -1,0 +1,30 @@
+.header {
+  background-color: darkorchid;
+  height: 70px;
+  max-width: 100%;
+  box-shadow: 1px 1px 10px darkorchid;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+ul, li {
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 100vh;
+  max-width: 100%;
+}
