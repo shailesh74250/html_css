@@ -1,0 +1,44 @@
+/* universal selector */
+* {
+  margin: 0px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-header {
+  background-color: aqua;
+  height: 100px;
+}
+
+.flex-main {
+  background-color: rebeccapurple;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-artical {
+  background-color: red;
+  height: inherit;
+  width: 70%;
+}
+
+.flex-nav-left {
+  background-color: rosybrown;
+  height: inherit;
+  width: 15%;
+}
+
+.flex-nav-right {
+  background-color: rosybrown;
+  height: inherit;
+  width: 15%;
+}
+
+.flex-footer {
+  background-color: sandybrown;
+  height: 100px;
+}
